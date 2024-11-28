@@ -1,12 +1,12 @@
-Genome-wide analysis reveals the regulatory role of position-specific DNA G-quadruplex structure on gene expression
+Multidimensional Analysis of Single-Cell Data Reveals Metabolic Resource Reallocation Patterns in the Tumor Microenvironment of Colorectal Cancer
 ---------------------------------------------------------------------------------------
-This resource provides the R code and processed data to reproduce key results described in Dan H, et al. Genome-wide analysis reveals the regulatory role of position-specific DNA G-quadruplex structure on gene expression
+This resource provides the R code and processed data to reproduce key results described in Dan H, et al. Multidimensional Analysis of Single-Cell Data Reveals Metabolic Resource Reallocation Patterns in the Tumor Microenvironment of Colorectal Cancer
 
 ### Getting started
 **1.** Clone Github repository. 
 **1.** Clone Github repository and get the data from google drive. 
 ```
-https://github.com/Hd0909/G4_regulation.git
+https://github.com/danhuang0909/metabolic-allocation.git
 ```
 download the data from the  following link and store them in the ./data folder
 [https://drive.google.com/drive/folders/1c6k1d4MBdfZZiQILJrn-Dw-55nM5lSK2?usp=share_link]
