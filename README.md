@@ -9,14 +9,17 @@ This resource provides the R code and processed data to reproduce key results de
 https://github.com/danhuang0909/metabolic-allocation.git
 ```
 download the data from the  following link and store them in the ./data folder
-[https://drive.google.com/drive/folders/1c6k1d4MBdfZZiQILJrn-Dw-55nM5lSK2?usp=share_link]
+https://www.synapse.org/Synapse:syn64302025/files/
 
 
 
 **2.** Run the following script to get the figures and supplementary figures
 ```
 cd ./Rscript
-
+## integration of the scRNA-seq data
+step1_integration_of_scRNA_data.r
+## load the data and calculate the pathway allocation values
+Rscript step0_load_data2.R
 ## Figure 1 and supplementary Figure1
 Rscript step1_figure1_final.r
 # Figure 2 and supplementary Figure2-4
@@ -30,7 +33,7 @@ Rscript step1_figure5_final.r
 # Figure 6 and supplementary Figure9
 Rscript step1_figure6_final.r
 # Figure 7 and supplementary Figure10-11
-Rscript step1_figure6_final.r
+Rscript step1_figure7_final.r
 ```
 ### Contact
 danhuang2018dana@gmail.com
