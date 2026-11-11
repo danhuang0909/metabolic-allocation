@@ -1,7 +1,6 @@
-Multidimensional Analysis of Single-Cell Data Reveals Metabolic Resource Reallocation Patterns in the Tumor Microenvironment of Colorectal Cancer
+Metabolic Allocation Anchors Continuous Signaling States Across Colorectal Cancer Ecosystems
 ---------------------------------------------------------------------------------------
-This resource provides the R code and processed data to reproduce key results described in Dan H, et al. Multidimensional Analysis of Single-Cell Data Reveals Metabolic Resource Reallocation Patterns in the Tumor Microenvironment of Colorectal Cancer
-
+This resource provides the R code and processed data to reproduce key results described in Dan H, et al.Metabolic Allocation Anchors Continuous Signaling States Across Colorectal Cancer Ecosystems
 ### Getting started
 **1.** Clone Github repository. 
 **1.** Clone Github repository and get the data from google drive. 
