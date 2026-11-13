@@ -16,25 +16,27 @@ https://www.synapse.org/Synapse:syn64302025/files/
 
 **2.** Run the following script to get the figures and supplementary figures
 ```
-cd ./Rscript
-## integration of the scRNA-seq data
-step1_integration_of_scRNA_data.r
-## load the data and calculate the pathway allocation values
-Rscript step0_load_data2.R
-## Figure 1 and supplementary Figure1
-Rscript step1_figure1_final.r
-# Figure 2 and supplementary Figure2-4
-Rscript step1_figure2_final.r
-# Figure 3 and supplementary Figure5
-Rscript step1_figure3_final.r
-# Figure 4 and supplementary Figure6-7
-Rscript step1_figure4_final.r
-# Figure 5 and supplementary Figure8
-Rscript step1_figure5_final.r
-# Figure 6 and supplementary Figure9
-Rscript step1_figure6_final.r
-# Figure 7 and supplementary Figure10-11
-Rscript step1_figure7_final.r
+# Figure 1 and Supplementary Figures 1-2
+Rscript Rscript/step1_figure1.R
+
+# Figure 2 and Supplementary Figures 3-8
+Rscript Rscript/step1_figure2.R
+
+# Figure 3 and Supplementary Figure 9
+Rscript Rscript/step1_figure3.R
+
+# Figure 4 and Supplementary Figures 9-11
+Rscript Rscript/step1_figure4.R
+
+# Figure 5, Supplementary Figure 12, and additional subtype,
+# clinical, drug-response, and supplementary outputs
+Rscript Rscript/step1_figure5.R
+
+# Figure 6 and Supplementary Figure 13
+Rscript Rscript/step1_figure6.R
+
+# Figure 7 and Supplementary Figure 14
+Rscript Rscript/step1_figure7.R
 ```
 ### Contact
 danhuang2018dana@gmail.com
