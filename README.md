@@ -11,7 +11,7 @@ download the data from the  following link and store them in the ./data folder
 https://www.synapse.org/Synapse:syn64302025/files/
 
 
-![image](https://github.com/danhuang0909/metabolic-allocation/blob/main/figures/figure1a.jpg)
+![image](https://github.com/danhuang0909/metabolic-allocation/blob/main/figures/concept2_01.jpg)
 
 
 **2.** Run the following script to get the figures and supplementary figures
